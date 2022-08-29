@@ -9,16 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  var networkService = NetworkService()
+  var networkDataFetcher = NetworkDataFetcher()
   override func viewDidLoad() {
     super.viewDidLoad()
-    networkService.request(searchTerm: "woman") { data, error in
-      if let data = data {
-        print(data)
+    networkDataFetcher.fetchImages(searchTerms: "Woman") { response in
+      if let response = response {
+        print(response)
       }
     }
   }
-
-
 }
 
