@@ -15,6 +15,7 @@
 		E943ED9928BCADF7004E6595 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E943ED9828BCADF7004E6595 /* NetworkDataFetcher.swift */; };
 		E959E77B28BCB730002677B3 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959E77A28BCB730002677B3 /* SearchResponse.swift */; };
 		E959E77D28BCB831002677B3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959E77C28BCB831002677B3 /* Movie.swift */; };
+		E959E77F28BCC4BC002677B3 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959E77E28BCC4BC002677B3 /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E943ED9828BCADF7004E6595 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		E959E77A28BCB730002677B3 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		E959E77C28BCB831002677B3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E959E77E28BCC4BC002677B3 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E959E77A28BCB730002677B3 /* SearchResponse.swift */,
+				E959E77E28BCC4BC002677B3 /* MovieResponse.swift */,
 				E959E77C28BCB831002677B3 /* Movie.swift */,
 			);
 			name = Models;
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E959E77F28BCC4BC002677B3 /* MovieResponse.swift in Sources */,
 				E943ED9928BCADF7004E6595 /* NetworkDataFetcher.swift in Sources */,
 				E959E77B28BCB730002677B3 /* SearchResponse.swift in Sources */,
 				E959E77D28BCB831002677B3 /* Movie.swift in Sources */,
