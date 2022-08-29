@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var networkService = NetworkService()
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    networkService.request(searchTerm: "woman") { _, _ in
+      
+    }
   }
 
 
