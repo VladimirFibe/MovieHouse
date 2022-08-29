@@ -12,8 +12,10 @@ class ViewController: UIViewController {
   var networkService = NetworkService()
   override func viewDidLoad() {
     super.viewDidLoad()
-    networkService.request(searchTerm: "woman") { _, _ in
-      
+    networkService.request(searchTerm: "woman") { data, error in
+      if let data = data {
+        print(data)
+      }
     }
   }
 
