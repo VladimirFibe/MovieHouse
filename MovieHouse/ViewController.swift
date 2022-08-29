@@ -50,20 +50,16 @@ class ViewController: UIViewController {
   func setupViews() {
     view.addSubview(scrollView)
     scrollView.frame = view.frame
-    scrollView.addSubview(orangeView)
-    orangeView.addSubview(stackView)
+//    scrollView.addSubview(orangeView)
+    scrollView.addSubview(stackView)
   }
   func setupConstraints() {
     NSLayoutConstraint.activate([
-      orangeView.topAnchor.constraint(equalTo: scrollView.contentLayoutGuide.topAnchor),
-      orangeView.leadingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.leadingAnchor),
-      orangeView.trailingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.trailingAnchor),
-      orangeView.bottomAnchor.constraint(equalTo: scrollView.contentLayoutGuide.bottomAnchor),
-      orangeView.widthAnchor.constraint(equalTo: view.widthAnchor),
-      stackView.topAnchor.constraint(equalTo: orangeView.topAnchor),
-      stackView.leadingAnchor.constraint(equalTo: orangeView.leadingAnchor),
-      stackView.trailingAnchor.constraint(equalTo: orangeView.trailingAnchor),
-      stackView.bottomAnchor.constraint(equalTo: orangeView.bottomAnchor)
+      stackView.topAnchor.constraint(equalTo: scrollView.contentLayoutGuide.topAnchor),
+      stackView.leadingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.leadingAnchor),
+      stackView.trailingAnchor.constraint(equalTo: scrollView.contentLayoutGuide.trailingAnchor),
+      stackView.bottomAnchor.constraint(equalTo: scrollView.contentLayoutGuide.bottomAnchor),
+      stackView.widthAnchor.constraint(equalTo: view.widthAnchor),
     ])
   }
 }
