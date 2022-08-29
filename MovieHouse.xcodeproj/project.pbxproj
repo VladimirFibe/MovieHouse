@@ -55,12 +55,28 @@
 			isa = PBXGroup;
 			children = (
 				E943ED7E28BC63EF004E6595 /* AppDelegate.swift */,
-				E943ED8228BC63EF004E6595 /* ViewController.swift */,
-				E943ED8728BC63F0004E6595 /* Assets.xcassets */,
-				E943ED8928BC63F0004E6595 /* LaunchScreen.storyboard */,
-				E943ED8C28BC63F0004E6595 /* Info.plist */,
+				E943ED9428BC8822004E6595 /* Controllers */,
+				E943ED9328BC87FF004E6595 /* Supportings Files */,
 			);
 			path = MovieHouse;
+			sourceTree = "<group>";
+		};
+		E943ED9328BC87FF004E6595 /* Supportings Files */ = {
+			isa = PBXGroup;
+			children = (
+				E943ED8C28BC63F0004E6595 /* Info.plist */,
+				E943ED8728BC63F0004E6595 /* Assets.xcassets */,
+				E943ED8928BC63F0004E6595 /* LaunchScreen.storyboard */,
+			);
+			name = "Supportings Files";
+			sourceTree = "<group>";
+		};
+		E943ED9428BC8822004E6595 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E943ED8228BC63EF004E6595 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
