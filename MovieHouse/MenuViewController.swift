@@ -143,6 +143,9 @@ extension MenuViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(indexPath)
         collectionView.deselectItem(at: indexPath, animated: true)
+      let controller = ViewController()
+//      controller.modalPresentationStyle = .fullScreen
+      self.present(controller, animated: true)
     }
 }
 
