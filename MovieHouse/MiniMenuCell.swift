@@ -63,6 +63,7 @@ class FoodCell: UICollectionViewCell, SelfConfiguringCell {
         labelData.text = "01.09.2020"
         labelData.font = UIFont.systemFont(ofSize: 13.00)
         stack.addArrangedSubview(labelData)
+        labelData.textColor = .gray
     }
     
     func configure(with intValue: Int) {

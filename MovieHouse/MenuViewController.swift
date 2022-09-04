@@ -30,6 +30,8 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .orange
         setupCollectionView()
+        navigationItem.title = "Movie House"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     func setupCollectionView() {

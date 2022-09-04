@@ -45,6 +45,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+      view.backgroundColor = .black
     networkDataFetcher.fetchMovie(with: 10528) { movie in
       if let movie = movie {
         let backdropPath = movie.backdropPath ?? ""
